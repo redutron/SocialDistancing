@@ -1,4 +1,13 @@
 'use strict'; 
+/*
+ * @author:    Caleb Nii Tetteh Tsuru Addy(Virus) 
+ * @date:      25th March, 2020 
+ * @email:     100percentvirusdownloading@gmail.com 
+ * @twitter:   @niitettehtsuru
+ * @github :   https://github.com/niitettehtsuru/SocialDistancing
+ * @codepen:   https://codepen.io/niitettehtsuru/pen/NWqENww
+ * @license:   GNU General Public License v3.0
+ */
 /**
  * Gets the size of the browser window. 
  * @return {object} The length and breadth of the browser window.
