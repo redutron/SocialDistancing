@@ -7,11 +7,13 @@ Explanation
 The white nodes represent healthy people. The black nodes represent infected/sick people. 
 The demonstration starts with one black node. Initially, it doesn't seem like a threat. 
 
-<img width="1357px" height="500px"  src ="img/start.jpg">
+<img width="1357px" height="400px"  src ="img/start.jpg">
 
 However, within a short time the infection spreads and affects everyone. 
 
-<img width="1357px" height="500px"  src ="img/end.jpg">
+<img width="1357px" height="400px"  src ="img/end.jpg">
+
+A demo of this project can be viewed at https://codepen.io/niitettehtsuru/pen/NWqENww
 
 Conclusion
 ----------
@@ -28,6 +30,7 @@ All you'll ever need is a working web browser. That's it.
 
 ### Installing
 Open the index.html file in your web browser. It's that simple. 
+
  
 ## Built With
 
