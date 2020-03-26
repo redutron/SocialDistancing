@@ -59,7 +59,11 @@ var nodes               = spawnNodes(numOfNodes),
     numInfected         = (nodes.length > 0? 1: 0); 
 totalSpan.textContent   = numOfNodes;//display the total number of nodes
 infectedSpan.textContent= numInfected;//display the total number of nodes
- 
+var img = document.getElementById("scream");
+window.onload = function() { 
+    
+    ctx.drawImage(img,0,0);
+}; 
 function nodeLoop(timestamp)
 {  
     //Let the canvas correspond to window resizing
@@ -69,6 +73,7 @@ function nodeLoop(timestamp)
     SCREEN_WIDTH   = windowSize.x;
     SCREEN_HEIGHT  = windowSize.y;  
     ctx.clearRect(0,0,SCREEN_WIDTH,SCREEN_HEIGHT); 
+    ctx.drawImage(img,0,0);
     numInfected    = 0; 
     //Nodes are represented on the canvas as filled circles. Get the center of each of these filled circles.
     var centerCoordinatesOfNodes =  nodes.reduce(function(array, node) 
@@ -93,4 +98,5 @@ function nodeLoop(timestamp)
     requestAnimationFrame(nodeLoop); 
 } 
 requestAnimationFrame(nodeLoop); 
+ 
  

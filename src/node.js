@@ -83,7 +83,7 @@ class Node
                     color   =   this.getColor(0.5);  
                     break; 
                 case 2: 
-                    radius  =   this.radius * 7; //this.radius * 6; 
+                    radius  =   this.radius * 9; //this.radius * 6; 
                     color   =   this.getColor(0.2); 
                     break; 
             }
