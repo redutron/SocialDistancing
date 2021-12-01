@@ -13,7 +13,7 @@ However, within a short time the infection spreads and affects everyone.
 
 <img width="1357px" height="400px"  src ="img/end.jpg">
 
-A demo of this project can be viewed at https://codepen.io/niitettehtsuru/pen/NWqENww
+A demo of this project can be viewed at https://codepen.io/redutron/details/NWqENww
 
 Conclusion
 ----------
